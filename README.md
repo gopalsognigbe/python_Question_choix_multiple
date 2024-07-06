@@ -1,1 +1,2 @@
 # python_Question_choix_multiple
+Ce programme python est un quizz proposé à l'utilisateur, il renferme des fonctions qui permettent de générer des quizz sur la capitales des pays qu'on aura a inscrire, grace au module random, les quizz seront pas toujous dans le même ordre 
