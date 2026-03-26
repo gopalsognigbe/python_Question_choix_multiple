@@ -35,7 +35,8 @@ def verification_resultat(question):
     if not 0 <= index <=len(question[1]) :
         print(f"Veuillez mettre un chiffre entre 1 et {len(question[1])} !!!")
         print("")
-        return verification_resultat(question)
+        return verification_resultat  
+    (question)
     print("")
     return index
   
