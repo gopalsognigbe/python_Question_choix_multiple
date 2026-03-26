@@ -11,7 +11,7 @@ questionnaire=[question1,question2,question3,question4]
 
 def poser_question(question):
     print(f'{question[0]}')
-    for i in range (len(question[1])):
+    for i in range (len( question[1])):
         print(f'{i+1} -> {question[1][i]}')
     index=verification_resultat(question)
     if question[1][index] == question[2]:
