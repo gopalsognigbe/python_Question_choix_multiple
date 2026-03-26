@@ -42,7 +42,7 @@ def verification_resultat(question):
 #lancement des questions dans la liste quetionnairea et decompte du score 
 def lancer_question(questionnaire):
     score=0
-    for question in questionnaire:
+    for question in questionnaire :
         if poser_question(question) == True:
             score +=1
     print("Votre score est de :" ,score, "sur ",len(questionnaire))
