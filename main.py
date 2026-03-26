@@ -45,7 +45,8 @@ def lancer_question(questionnaire):
     for question in questionnaire :
         if poser_question(question) == True:
             score +=1
-    print("Votre score est de :" ,score, "sur ",len(questionnaire))
+    print("Votre score est de :" 
+           ,score, "sur ",len(questionnaire))
     
 lancer_question(questionnaire)
 
